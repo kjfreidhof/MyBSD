@@ -11,7 +11,8 @@ printf "Enter a Choice: "
 read -r choice
 
  if [ "$choice" = y ] || [ "$choice" = Y ]; then
-        pkg install "$font1" "$mkf"
+        pkg install "$font1" 
+        pkg install "$mkf"
 
 elif [ "$choice" = n ] || [ "$choice" = N ]; then
         exit
