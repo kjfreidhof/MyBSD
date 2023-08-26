@@ -46,5 +46,4 @@ else
 fi 
 
 # setting the xfont path
-xset fp+ /usr/local/share/fonts/urwfonts
-xset fp rehash
+
