@@ -37,5 +37,9 @@ virt)
 
 vm)
     pkg install xf86-video-vmware
+    ;;
+
+*)
+    echo "Invalid option please choose i,a,n,virt,or vm."
 
 esac
