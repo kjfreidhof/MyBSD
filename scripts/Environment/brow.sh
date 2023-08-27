@@ -40,11 +40,13 @@ case $browser in
 # if the user chooses 1 install firefox 
 1)
     pkg install firefox
+    chown -R "$USER" ~/.cache 
     ;;
 
 # if the user chooses 2 install firefox-esr
 2)
     pkg install firefox-esr
+    chown -R "$USER" ~/.cache
     ;;
 # if the user chooses 3 install chromium 
 3)
