@@ -1,2 +1,3 @@
-# Various FreeBSD scripts
+# Various backgrounds
+
 
